@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Home Page Flex */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features {
+    display: flex;
+    gap: 10px;
+}
+
+.feature-box {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    flex: 1;
+    text-align: center;
+}
+.feature-box img {
+    width: 100%;
+    height: auto;
+  }
+
+/* Product Page Grid */
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 1em;
+    text-align: center;
+}
+.product-card img {
+    width: 50%;
+    height: auto;
+  }
+    
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Contact Form */
+/* Contact Page Main Section Styles */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally center all child elements */
+    justify-content: center; /* Vertically center (if height is set) */
+    padding: 20px;
+    text-align: center; /* Center text inside elements like <h2> and <p> */
+}
+
+/* Style for h2 */
+main h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style for image */
+main img {
+    width: 250px; /* You can adjust size */
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Optional: gives rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds subtle shadow */
+}
+
+/* Style for paragraphs */
+main p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
